@@ -1,0 +1,6 @@
+version: '1'
+services:
+  twitter:
+    image: quoc/xclone:v0
+    ports:
+      - '4000:4000'
